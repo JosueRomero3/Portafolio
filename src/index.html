@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josue Romero - Portafolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="../assets/portfolio.png">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+    <header class="w-full p-10% py-0 bg-stone-950 h-128 text-white flex justify-between items-center" id="inicio">
+        <span class="text-3xl font-bold logo">JRom</span>
+        <nav class="flex gap-8 text-lg font-semibold enlaces" id="enlaces">
+            <a href="#inicio"><span class="text-cyan-600">I</span>nicio</a>
+            <a href="#sobreMi"><span class="text-cyan-600">S</span>obreMi</a>
+            <a href="#proyectos"><span class="text-cyan-600">P</span>royectos</a>
+            <a href="#contacto"><span class="text-cyan-600">C</span>ontacto</a>
+        </nav>
+    </header>
+
+    <section class="w-full p-10% py-0 h-90vh bg-stone-950 text-white flex flex-col justify-center gap-8 inicio" >
+        <h1 class="text-6xl max-w-lg font-medium">
+           <span class="text-cyan-600">Hola! mi nombre es Josue Romero</span> 
+           FullStack Web Developer
+        </h1>
+        <div class="container-btn">
+            <button class="w-28 h-11 border-2 border-inherit rounded-lg hover:bg-white hover:text-cyan-600 transition-all btn"><a href="#proyectos" class="font-semibold">Proyectos</a></button>
+        </div>
+    </section>
+
+    <!-- sección 2: Sobre Mi -->
+
+    <section class="w-full h-90vh flex justify-center items-center gap-8 flex-wrap" id="sobreMi">
+        <img class="w-72 h-auto rounded-xl" src="../assets/foto.png" alt="foto">
+        <article class=" flex flex-col gap-4">
+            <h2 class="text-2xl text-cyan-600 font-bold sobreMi">Sobre Mi</h2>
+            <p class="max-w-xl sobreMi-text">Desarrollador web innovador, proactivo y con capacidad para desarrollar páginas web elegantes y pioneras y diseños de aplicaciones para clientes exigentes. Organizado y con capacidad de multitarea, con Habilidades de desarrollo web para una posición estimulante en una compañía moderna, abierta y profesional.</p>
+            <div class="flex gap-4 sobreMi-redes">
+                <a href="https://github.com/JosueRomero3" target="_blank"><img width="25px" src="../assets/github.svg" alt="github"></a>
+                <a href="https://www.linkedin.com/in/josue-romero-polo-677153252/" target="_blank"><img width="25px" src="../assets/linkedin.svg" alt="linkedin"></a>
+                <a href="https://www.instagram.com/josueromeropolo/" target="_blank"><img width="25px" src="../assets/instagram.svg" alt="instagram"></a>
+            </div>
+        </article>
+    </section>
+
+     <!-- sección 3: Proyectos -->
+
+     <section class="bg-stone-950 p-10% flex flex-col gap-8 py-5 justify-center items-center" id="proyectos">
+        <h2 class="text-center text-white font-bold text-2xl">Mis Proyectos</h2>
+        <article class="flex gap-8 flex-wrap justify-center pb-8">
+            <div class="w-72 h-24 p-2 flex flex-col gap-2 justify-center items-center bg-white border-2 rounded-lg border-cyan-600">
+                <img class="rounded-lg w-full h-full" src="../assets/LandingPage.PNG" alt="">
+                <h2 class="font-bold text-cyan-600">Landing de venta</h2>
+                <p class="text-center">Landing de página de venta de joyeria realizado con HTML y CSS</p>
+                <div class="flex gap-4">
+                    <button class="w-24 h-8 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://6454b03481a49f6c3e3866c7--storied-sherbet-ca9d36.netlify.app/?classId=3eaf151b-cc49-4853-b870-73fb3d9cef83&assignmentId=c918a30c-8880-42c3-ab02-2104c32962dd&submissionId=8fbd8625-f8a9-adec-77af-bc7a419671f3" target="_blank">Visitar</a></button>
+                    <button class="w-24 h-8 mb-2 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://github.com/JosueRomero3/PrimerProyectoUcamp" target="_blank">Código</a></button>
+                </div>
+            </div>
+            <div class="w-72 h-24 p-2 flex flex-col gap-2 justify-center items-center bg-white border-2 rounded-lg border-cyan-600">
+                <img class="rounded-lg" src="../assets/CRUD.PNG" alt="">
+                <h2 class="font-bold text-cyan-600">CRUD</h2>
+                <p class="text-center">Formulario de aperaciones CRUD implementando HTML, CSS, bootstrap y Javascript</p>
+                <div class="flex gap-4">
+                    <button class="w-24 h-8 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://6454b03481a49f6c3e3866c7--storied-sherbet-ca9d36.netlify.app/?classId=3eaf151b-cc49-4853-b870-73fb3d9cef83&assignmentId=c918a30c-8880-42c3-ab02-2104c32962dd&submissionId=8fbd8625-f8a9-adec-77af-bc7a419671f3" target="_blank">Visitar</a></button>
+                    <button class="w-24 h-8 mb-2 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://github.com/JosueRomero3/Proyecto-CRUD-Ucamp" target="_blank">Código</a></button>
+                </div>
+            </div>
+            <div class="w-72 h-24 p-2 flex flex-col gap-2 justify-center items-center bg-white border-2 rounded-lg border-cyan-600">
+                <img class="rounded-lg" src="../assets/Pokedex.PNG" alt="">
+                <h2 class="font-bold text-cyan-600">Dashboard</h2>
+                <p class="text-center">Dashboard de pokémon a partir de datos obtenidos de la PokéAPI y gráficas realizadas con la librería Chart.js</p>
+                <div class="flex gap-4">
+                    <button class="w-24 h-8 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://64b1fa385e708e3a4a6a3c1b--verdant-narwhal-39f22d.netlify.app/?classId=3eaf151b-cc49-4853-b870-73fb3d9cef83&assignmentId=d331d9b3-9c17-4182-82cd-77d22cf73e2e&submissionId=e54e7d7a-fb71-58d0-10ae-8215beecd8b9" target="_blank">Visitar</a></button>
+                    <button class="w-24 h-8 mb-2 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://github.com/JosueRomero3/ProyectoAPIs" target="_blank">Código</a></button>
+                </div>
+            </div>
+            <div class="w-72 h-24 p-2 flex flex-col gap-2 justify-center items-center bg-white border-2 rounded-lg border-cyan-600">
+                <img class="rounded-lg" src="../assets/RestaurantApp.PNG" alt="">
+                <h2 class="font-bold text-cyan-600">Restaurant App</h2>
+                <p class="text-center">Página con rutas de navegación, cuenta con de sección de menú y reservaciones, realizada con React y firebase.</p>
+                <div class="flex gap-4">
+                    <button class="w-24 h-8 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://elcarterburger.netlify.app/?classId=3eaf151b-cc49-4853-b870-73fb3d9cef83&assignmentId=57a9b6b7-ed60-431e-ad03-3cfcaa824037&submissionId=760d43a6-8c48-0efb-3d8c-52ff6b892c7e" target="_blank">Visitar</a></button>
+                    <button class="w-24 h-8 mb-2 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://github.com/JosueRomero3/Restaurant-App" target="_blank">Código</a></button>
+                </div>
+            </div>
+            <div class="w-72 h-24 p-2 flex flex-col gap-2 justify-center items-center bg-white border-2 rounded-lg border-cyan-600">
+                <img class="rounded-lg" src="../assets/Ecommerce.PNG" alt="">
+                <h2 class="font-bold text-cyan-600">Ecommerce</h2>
+                <p class="text-center">Aplicación de comercio FullStack, en la cual podrás registarte, iniciar sesión, añadir productos al carrito, implemtentado roles de administrador y usuario, con ruta de Checkout.</p>
+                <div class="flex gap-4">
+                    <button class="w-24 h-8 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://ecommerce-app-jh01.onrender.com/?classId=3eaf151b-cc49-4853-b870-73fb3d9cef83&assignmentId=65e02e9e-f91b-4b04-9d7b-e97448bd7704&submissionId=09751ba4-b76e-b345-46df-1a23995e15b6" target="_blank">Visitar</a></button>
+                    <button class="w-24 h-8 mb-2 border-2 border-inherit rounded-lg border-cyan-600 hover:text-cyan-600 transition-all"><a href="https://github.com/JosueRomero3/Ecommerce-App" target="_blank">Código</a></button>
+                </div>
+            </div>
+        </article>
+        <p class="text-white">Puedes ver más proyectos en mi repositorio de <a href="https://github.com/JosueRomero3">github </a>:)</p>
+     </section>
+     <section class="p-10% py-6 flex flex-col justify-center items-center w-full">
+        <h2 class="text-center font-bold text-2xl text-cyan-600 Habilidades">Habilidades</h2>
+        <div class="flex justify-center gap-8 flex-wrap">
+            <img width="80px" src="../assets/node.svg" alt="">
+            <img width="80px" src="../assets/react.svg" alt="">
+            <img width="80px" src="../assets/tailwind.svg" alt="">
+            <img width="80px" src="../assets/js.svg" alt="">
+            <img width="80px" src="../assets/html.svg" alt="">
+            <img width="80px" src="../assets/css.svg" alt="">
+            <img width="80px" src="../assets/sass.svg" alt="">
+            <img width="80px" src="../assets/mongodb.svg" alt="">
+            <img width="80px" src="../assets/bootstrap.svg" alt="">
+        </div>
+     </section>
+
+     <footer class="w-full h-30vh p-10% py-5 flex flex-col justify-center items-center gap-4 bg-stone-950 text-white" id="contacto">
+        <div class="flex justify-center gap-4 flex-wrap redes">
+            <a href="https://github.com/JosueRomero3" target="_blank"><img width="30px" src="../assets/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/josue-romero-polo-677153252/" target="_blank"><img width="30px" src="../assets/linkedin.svg" alt=""></a>
+            <a href="https://www.instagram.com/josueromeropolo/" target="_blank"><img width="30px" src="../assets/instagram.svg" alt=""></a>  
+        </div>
+        <span>josuerom3@gmail.com</span>
+        <h3>Hecho por Josue Romero - 2023</h3>
+     </footer>
+
+     <script src="./app.js"></script>
+</body>
+</html>

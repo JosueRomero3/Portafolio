@@ -1,0 +1,59 @@
+.redes img{
+    filter: invert(96%) sepia(0%) saturate(7483%) hue-rotate(103deg) brightness(107%) contrast(102%);
+}
+
+.Habilidades{
+    margin-bottom: 3em;
+}
+
+.logo-menu{
+    width: 100%;
+}
+
+
+@media (max-width: 630px){
+    
+    .sobreMi{
+        margin: 0 auto;
+    }
+    .sobreMi-text{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .sobreMi-redes{
+        margin: 0 auto;
+    }
+    .container-btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 573px){
+    .logo{
+        margin-top: 1em;
+        width: 100%;
+    }
+    .logo-menu{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .btn-menu{
+        display: flex;
+    }
+    #inicio{
+       display: flex;
+       flex-direction: column;
+       height: auto;
+       padding-bottom: 2em;
+    }
+    #enlaces{
+        display: none;
+    }
+    #abrir{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
